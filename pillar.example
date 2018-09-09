@@ -1,0 +1,10 @@
+kmod:
+  absent:
+    - aufs
+
+  present:
+    - name: overlay
+      persist: True
+
+    - name: rtl811
+      persist: True
